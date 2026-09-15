@@ -12,6 +12,7 @@ graph TD
     C -->|Query| E[PostgreSQL]
     C -->|Publish| F[Slack Webhook]
     D -->|Inference Result| C
+
 ```
 
 ## Components
