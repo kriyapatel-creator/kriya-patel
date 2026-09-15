@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 [Drug Safety Signal Detector & Regulatory Submission Readiness Checker ]
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | [Structura] |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | [RADHA JOSHI] — [radhajoshi2008@ibm.com] |
+| **Members** | [KRIYA PATEL], [URVI PANDYA], [NEIL DAS] |
 
 ---
 
@@ -19,7 +19,7 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+[Drug Safety Signal Detector & Regulator Submission Readiness Checker]
 
 ---
 
@@ -27,29 +27,50 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
-
+[An integrated AI application with two modules:
+1. Safety Signal Detector
+Upload adverse-event reports/CSV data.
+Clean and standardize the data.
+Detect unusual increases or patterns in adverse events.
+Rank potential signals by severity, frequency and statistical indicators.
+Generate an explainable signal report.
+2. Regulatory Submission Readiness Checker
+Upload regulatory documents/checklists.
+Extract key information using NLP/LLMs.
+Check required fields, documents and metadata.
+Detect missing information, inconsistencies and formatting issues.
+Generate a Readiness Score and actionable checklist.
+Example output:
+Readiness: 82% — NEEDS ATTENTION
+🔴 2 critical documents missing
+🟠 3 inconsistencies detected
+🟢 18 requirements satisfied]
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Feature 1:** [AI-Powered Safety Signal Detection* — Identify potential drug-safety signals from adverse-event data.]
+- **Feature 2:** [*Real-Time Anomaly Detection* — Detect unusual trends and abnormal safety patterns.]
+- **Feature 3:** [*Regulatory Readiness Score* — Evaluate submission completeness against regulatory requirements.]
+- **Feature 4:** [Issue & Inconsistency Detection* — Flag missing documents, incomplete fields, and conflicting information.]
+- **Feature 5:** [*Explainable AI Reports* — Provide transparent reasoning and actionable recommendations]
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️## 🛠️ Tech Stack
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | Python, TypeScript |
+| **Frontend** | React, HTML, CSS |
+| **Backend** | FastAPI |
+| **AI / ML** | IBM watsonx.ai, Scikit-learn, Pandas |
+| **NLP / Document Processing** | IBM watsonx.ai, OCR, NLP |
+| **IBM Technologies** | IBM watsonx.ai, IBM Cloud |
+| **Databases** | PostgreSQL |
+| **Data Visualization** | Plotly, Recharts |
+| **Deployment** | Docker, IBM Cloud |
+| **Version Control** | Git, GitHub |
 
 ---
 
